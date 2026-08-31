@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "node --test src/graphModel.test.js matrix/quorumMatrixModel.test.js",
-    "matrix:perf": "node scripts/matrix-perf.mjs",
+    "test": "node --test src/graphModel.test.js",
     "mock:stream": "node scripts/mock-kafka-stream.mjs --serve",
     "stream:kafka": "node scripts/kafka-websocket-bridge.mjs"
   },
